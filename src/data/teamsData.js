@@ -63,13 +63,5 @@ export const teamsData = [
     coLead: "Ishita Lohani",
     members: ["Khushi Singh", "Kashish"]
   },
-  {
-    id: 7,
-    name: "Production Team",
-    image: productionImage,
-    description: "Our Production Team is the crew that makes ideas real. They're the ones setting the stage, running the tech, and making sure every event runs like clockwork.",
-    lead: "Akshat Kaushik",
-    coLead: null,
-    members: ["Ansh Kumar", "Ashutosh Dubey", "Aayush Sharma", "Akshit Kotiyal"]
-  }
+  
 ];
