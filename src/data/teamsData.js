@@ -4,7 +4,6 @@ import socialMediaImage from '../assets/teams/social_media_team.png';
 import prImage from '../assets/teams/pr_team.png';
 import designImage from '../assets/teams/design_team.png';
 import editorialImage from '../assets/teams/editorial_team.png';
-import productionImage from '../assets/teams/production_team.png';
 
 
 
