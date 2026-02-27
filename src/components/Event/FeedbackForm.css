@@ -27,7 +27,7 @@
 .idea-form textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd61;
   border-radius: 8px;
   font-size: 1rem;
   transition: border-color 0.3s ease;
@@ -37,7 +37,7 @@
 
 .idea-form input:focus,
 .idea-form textarea:focus {
-  border-color: #ffe625;
+  border: 1px solid #ffe625;
   outline: none;
   background-color: rgba(255, 255, 255, 0.05);
 }
