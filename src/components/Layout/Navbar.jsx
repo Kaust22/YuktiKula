@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaHome, FaStar, FaImage, FaBell, FaPen, FaBars, FaTimes } from 'react-icons/fa';
 import { Link, useLocation } from 'react-router-dom';
-import Logo from '../../assets/Teams/Club Logo.png'; 
+import Logo from '../../assets/teams/Club Logo.png'; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
