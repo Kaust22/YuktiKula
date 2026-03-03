@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 import About from './pages/About'
-import Home from './pages/Home'
-import Gallery from './pages/gallery';
+import Home from './pages/Home';
+import Gallery from './pages/Gallery';
+import EventPage from './pages/EventPage';
 import Navbar from './components/Layout/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './components/Layout/Footer';
@@ -19,12 +20,11 @@ function App() {
         
         <main className="relative z-10 bg-black/60 min-h-screen w-full"> 
           <Routes>
-            {/* This ensures the Home page loads at http://localhost:5173/ */}
             <Route path="/" element={<Home />} />
             
-            {/* This loads the About page at http://localhost:5173/about */}
             <Route path="/about" element={<About />} />
-            <Route path="/gallery" element={<Gallery />} />
+<Route path="/gallery" element={<Gallery />} />
+<Route path="/events" element={<EventPage />} />
           </Routes>
           <Footer />
         </main>

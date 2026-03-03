@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Hackathon 2025",
+    "description": "A 24-hour coding challenge for innovation and creativity.",
+    "date": "2025-11-05"
+  },
+  {
+    "id": 2,
+    "title": "AI Seminar",
+    "description": "Join us to explore Artificial Intelligence trends and applications.",
+    "date": "2025-11-15"
+  },
+  {
+    "id": 3,
+    "title": "Cultural Fest",
+    "description": "Annual college fest full of fun, dance, and cultural programs.",
+    "date": "2025-12-10"
+  }
+]
