@@ -2,11 +2,11 @@ import { useState } from 'react'
 import './App.css'
 import About from './pages/About'
 import Home from './pages/Home';
+import Gallery from './pages/Gallery';
 import EventPage from './pages/EventPage';
 import Navbar from './components/Layout/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './components/Layout/Footer';
-
 function App() {
   const [count, setCount] = useState(0)
 
@@ -23,8 +23,8 @@ function App() {
             <Route path="/" element={<Home />} />
             
             <Route path="/about" element={<About />} />
-
-            <Route path="/events" element={<EventPage />} />
+<Route path="/gallery" element={<Gallery />} />
+<Route path="/events" element={<EventPage />} />
           </Routes>
           <Footer />
         </main>
