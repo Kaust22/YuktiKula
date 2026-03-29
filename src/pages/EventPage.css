@@ -10,6 +10,7 @@
 
 /* 🌈 Hero Section */
 .hero-section {
+  /* margin-top: 5rem; */
   padding-top: 2.5rem;
   width: 100%;
   height: 280px;
@@ -101,3 +102,13 @@
   }
 }
 
+/* 🌟 Responsive Design */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+
+  .section h2 {
+    font-size: 1.5rem;
+  }
+}

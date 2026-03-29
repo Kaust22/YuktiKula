@@ -1,5 +1,9 @@
 export const contributorsData = [
-  { name: "Developer 1", position: "Frontend Developer" },
-  { name: "Developer 2", position: "Backend Developer" },
+  { name: "Kaustubh Kant Rastogi", position: "Frontend Developer" },
+  { name: "Rahul Verma", position: "Frontend Developer" },
+  { name: "Shubhi Agarwal", position: "Frontend Developer" },
+  { name: "Khushi Chauhan", position: "Backend Developer" },
+  { name: "Ujjwal Anand", position: "Backend Developer" },
+  { name: "Saksham Sharma", position: "Backend Developer" },
   // Add more contributors...
 ];
