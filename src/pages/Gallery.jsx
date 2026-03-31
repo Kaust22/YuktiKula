@@ -6,49 +6,55 @@ const events = [
     id: 1,
     name: "GENERATIVE AI",
     cover: "/images/generativeAI/cover.webp",
-    images: Array.from({ length: 20 }, (_, i) => `/images/generativeAI/${i + 1}.webp`),
+    images: Array.from({ length: 21 }, (_, i) => `/images/generativeAI/${i + 1}.png`),
   },
   {
     id: 2,
     name: "DATA ANALYSIS BOOTCAMP",
     cover: "/images/dataAnalysis/cover.webp",
-    images: Array.from({ length: 8 }, (_, i) => `/images/dataAnalysis/${i + 1}.webp`),
+    images: Array.from({ length: 24 }, (_, i) => `/images/dataAnalysis/${i + 1}.png`),
   },
   {
     id: 3,
     name: "YOUR DOST",
     cover: "/images/yourDost/cover.webp",
-    images: Array.from({ length: 6 }, (_, i) => `/images/yourDost/${i + 1}.webp`),
+    images: Array.from({ length: 12 }, (_, i) => `/images/yourDost/${i + 1}.png`),
   },
   {
     id: 4,
     name: "ADHYAAY",
     cover: "/images/Adhyaay/cover.webp",
-    images: Array.from({ length: 5 }, (_, i) => `/images/Adhyaay/${i + 1}.webp`),
+    images: Array.from({ length: 24 }, (_, i) => `/images/Adhyaay/${i + 1}.png`),
   },
   {
     id: 5,
-    name: "TEACHER'S DAY 2025",
-    cover: "/images/teachersDay/cover.webp",
-    images: Array.from({ length: 9 }, (_, i) => `/images/teachersDay/${i + 1}.webp`),
-  },
-  {
-    id: 6,
     name: "ECHO VERSE",
     cover: "/images/EchoVerse/cover.webp",
-    images: Array.from({ length: 4 }, (_, i) => `/images/EchoVerse/${i + 1}.webp`),
+    images: Array.from({ length: 4 }, (_, i) => `/images/EchoVerse/${i + 1}.png`),
   },
+  // {
+  //   id: 6,
+  //   name: "CLOUD COMPUTING SESSION",
+  //   cover: "/images/CloudComputing/cover.webp",
+  //   images: Array.from({ length: 7 }, (_, i) => `/images/CloudComputing/${i + 1}.png`),
+  // },
+  // {
+  //   id: 7,
+  //   name: "TEACHER'S DAY 2025",
+  //   cover: "/images/teachersDay/cover.webp",
+  //   images: Array.from({ length: 9 }, (_, i) => `/images/teachersDay/${i + 1}.png`),
+  // },
+  // {
+  //   id: 8,
+  //   name: "INTERNATIONAL WOMEN'S DAY",
+  //   cover: "/images/WomensDay/cover.webp",
+  //   images: Array.from({ length: 6 }, (_, i) => `/images/WomensDay/${i + 1}.png`),
+  // },
   {
-    id: 7,
-    name: "CLOUD COMPUTING SESSION",
-    cover: "/images/CloudComputing/cover.webp",
-    images: Array.from({ length: 7 }, (_, i) => `/images/CloudComputing/${i + 1}.webp`),
-  },
-  {
-    id: 8,
-    name: "INTERNATIONAL WOMEN'S DAY",
-    cover: "/images/WomensDay/cover.webp",
-    images: Array.from({ length: 6 }, (_, i) => `/images/WomensDay/${i + 1}.webp`),
+    id: 9,
+    name: "IDEATHON",
+    cover: "/images/Ideathon/cover.jpeg",
+    images: Array.from({ length: 24 }, (_, i) => `/images/Ideathon/${i + 1}.png`),
   },
 ];
 
@@ -85,7 +91,8 @@ export default function Gallery() {
       <header className="gallery-header">
         <h1 className="gallery-title">
           <img src="\public\images\Yuktikula-logo.png" alt="Yuktikula" className="logo" />
-          Yuktikula Club <span className="highlight">Gallery</span>
+          Yuktikula Club Gallery
+          {/* <span className="highlight">Gallery</span> */}
         </h1>
         <p className="gallery-subtitle">
           Event Memories & Highlights — Department of CSE (DS)
@@ -112,7 +119,7 @@ export default function Gallery() {
       {popupEvent && (
         <div className="popup-overlay" onClick={closePopup}>
           <div className="popup-wrapper" onClick={(e) => e.stopPropagation()}>
-            <button className="close-btn" onClick={closePopup}>
+              <button className="close-btn" onClick={closePopup}>
               &times;
             </button>
             <h2>{popupEvent.name}</h2>

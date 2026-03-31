@@ -19,6 +19,8 @@ body {
   background: var(--bg);
   color: var(--text);
   line-height: 1.5;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .gallery-container{
@@ -145,18 +147,21 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  margin-top: 3rem;
 }
 
 .popup-wrapper h2 {
   text-align: center;
-  margin-top: -5px;
+  margin-top: -15px;
+  margin-bottom: 15px;
   color: var(--accent);
   font-weight: 700;
+
 }
 
 .close-btn {
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 20px;
   font-size: 2.5rem;
   color: var(--accent);
@@ -236,8 +241,9 @@ body {
 }
 
 .lightbox-img {
+  margin-top: 3rem;
   max-width: 90%;
-  max-height: 85%;
+  max-height: 80%;
   border-radius: 15px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
 }
@@ -254,10 +260,10 @@ body {
 }
 
 .nav-btn.left {
-  left: 200px;
+  left: 2%;
 }
 .nav-btn.right {
-  right: 200px;
+  right: 2%;
 }
 
 .nav-btn:hover {
@@ -275,5 +281,12 @@ body {
   .cards-container {
     grid-template-columns: 1fr;
     padding: 1rem;
+  }
+  .gallery-title{
+    display: flex;
+    gap: 0.2rem;
+  }
+  .logo{
+    margin-left: 10px;
   }
 }
