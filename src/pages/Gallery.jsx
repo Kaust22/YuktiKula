@@ -90,7 +90,7 @@ export default function Gallery() {
     <div className="gallery-container">
       <header className="gallery-header">
         <h1 className="gallery-title">
-          <img src="\src\assets\teams\Club Logo.png" alt="Yuktikula" className="logo" />
+          <img src = "\src\assets\teams\Club Logo.png" className="logo" />
           Yuktikula Club Gallery
           {/* <span className="highlight">Gallery</span> */}
         </h1>
