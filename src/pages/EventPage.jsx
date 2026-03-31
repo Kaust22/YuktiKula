@@ -3,43 +3,35 @@ import "./EventPage.css";
 import FeedbackForm from "../components/Event/FeedbackForm";
 
 const EventPage = () => {
-  const upcomingEvents = [
-    {
-      title: "Tech Innovation Summit 2025",
-      description:
-        "Join industry leaders and innovators for a day of groundbreaking tech talks and networking.",
-      date: "March 15, 2025",
-      time: "9:00 AM",
-      location: "Main Auditorium",
-    },
-    {
-      title: "Cultural Fest: Unity in Diversity",
-      description:
-        "Celebrate diverse cultures through music, dance, food, and art from around the world.",
-      date: "March 22, 2025",
-      time: "2:00 PM",
-      location: "Campus Grounds",
-    },
-  ];
+  const upcomingEvents = [];
 
   const allEvents = [
-    ...upcomingEvents,
-    {
-      title: "Entrepreneurship Workshop",
+    
+      {
+      title: "IDEATHON 2026",
       description:
-        "Learn from successful entrepreneurs about starting and scaling your own business.",
-      date: "April 12, 2025",
-      time: "3:00 PM",
-      location: "Room 305, Business Building",
+        "Chance to stand out, not blend in. Limited time, limited spotlight. Unlimited potential.",
+      date: "February 18, 2026",
+      time: "1:30 PM",
+      location: "SBG Hall",
     },
     {
-      title: "Spring Music Concert",
+      title: "Online Session on Network Security",
       description:
-        "An evening of live performances by talented student musicians and bands.",
-      date: "April 18, 2025",
+        "an online session on network security(firewalls) and business operations with Sahil Sharma.",
+      date: "February 23, 2026",
       time: "7:00 PM",
-      location: "Campus Theater",
+      location: "Google Meet",
     },
+    {
+      title: "Induction Program (Your Dost)",
+      description:
+        "Session on mental health by Gunjan Parag Patel (Bleeding Yellow at YourDost).",
+      date: "September 12, 2025",
+      time: "3:30 PM to 4:30 PM",
+      location: "SHD Hall",
+    },
+    
   ];
 
   // Optional fade-in animation on scroll
