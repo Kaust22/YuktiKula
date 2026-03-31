@@ -31,7 +31,14 @@ const EventPage = () => {
       time: "3:30 PM to 4:30 PM",
       location: "SHD Hall",
     },
-    
+     {
+      title: "Data Analytics Bootcamp",
+      description:
+        "Data Analytics Bootcamp by Ms. Drishti (Master Trainer,EDUNET FOUNDATION).",
+      date: "September 12, 2025",
+      time: "1:30 PM to 4:30 PM",
+      location: "SHD Hall",
+    },
   ];
 
   // Optional fade-in animation on scroll
